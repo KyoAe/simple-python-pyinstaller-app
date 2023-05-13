@@ -1,5 +1,4 @@
 node {
-    agent none
     stage('Build') {
         agent {
             docker {
